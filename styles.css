@@ -110,6 +110,17 @@
     h1, h2, h3, h4 {
         color:#000000;
     }
-    div, section {
-          text-align:center;
-    }
+    .hero {
+  display: grid;
+  grid-template-columns: 1fr 420px;
+  gap: 28px;
+  align-items: center;
+  justify-items: center;
+  padding: 40px 0;
+}
+
+.hero-card,
+.card {
+  width: min(100%, 700px);
+  margin: 0 auto;
+}
