@@ -107,7 +107,7 @@
     align-items: center;
     text-align: center;
     }
-    h1, h2, h3, h4 {
+    h1, h2, h3, h4, h5, h6{
         color:#000000;
     }
     hero, hero-card, card {
@@ -118,8 +118,8 @@
           font-family: Belshaw;
     }
     h5 {
-          font-size:36pt;
+          font-size:72pt;
     }
     h6 {
-          font-size:24pt;
+          font-size:48pt;
     }
